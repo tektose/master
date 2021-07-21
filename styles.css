@@ -1,0 +1,185 @@
+/**Global**/
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+body{
+  position: relative;
+  font-family: 'Roboto Slab', serif;
+}
+a{
+  color:#4285f4;
+}
+/**Start Links**/
+.about a, .resources a, #join .item a,#footer .container-fluid a {
+  color: #4285f4;
+  text-decoration: none;
+}
+.about a:hover, .about a:hover, #join .item a:hover, #footer .container-fluid a:hover{
+  color: #0000ff;
+  text-decoration: none;  
+}
+/**End Links**/
+/**Global**/
+
+
+/**Start Navbar**/
+.navbar {
+  padding-left: 30px;
+  margin-bottom: 25px;
+}
+#navbar .navbar-nav li a, #navbar .navbar-header a{
+  font-size: 15px;
+  font-family: 'Roboto Slab', serif;
+  color: #000000;
+}
+#navbar .navbar-nav li a:hover, #navbar .navbar-header a:hover {
+  color: #0000ff;
+}
+/**End Navbar**/
+
+/**Start Home**/
+.txtOne{
+  font-family: 'Zilla Slab', serif;
+  font-size: 40px;
+  line-height: 40px;
+}
+.txtTwo{
+  font-size: 20px;
+}
+#right img{
+  width: 100%;
+}
+.column .txtThree{
+  font-size: 18.5px;
+}
+.column .txtThree a{
+  color: #4285f4;
+  text-decoration: none; 
+}
+.column .txtThree a:hover {
+  color: #0000ff;
+}
+.txtOne, .txtTwo, .txtThree{
+  margin: 50px;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/**End Home**/
+
+
+/**Start Bootcamp**/
+#bootcamp {
+  font-size: 20px;
+  font-weight: 400;
+}
+.about, .resources {
+  margin: 50px;
+}
+/**End Bootcamp**/
+
+/** Start Bootcamp Images**/
+.img-txt {
+  font-size: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#image-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 45px;
+ }
+#image-container img { 
+    width: 33.333%;
+    height: auto;
+    padding: 5px;
+ }
+@media ( max-width: 50em ) {
+#image-container img { 
+    width: 50%;
+  }
+ }
+
+@media ( max-width: 25em ) {
+#image-container img { 
+    width: 100%;
+  }
+ }  
+/** End Bootcamp Images**/
+
+
+/**Start Join**/
+.proj-txt{
+  font-size: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#join {
+    min-height: 400px;
+    margin-top: 15px;
+}
+#join .item {
+    text-align: center;
+    margin-top: 0px;
+    width: 325px;
+    height: 325px;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: top 0.2s;
+    transition: top 0.2s;
+}
+@media (min-width:768px){
+  #join .item{
+    border: 1px solid #edc7b7;
+    margin-bottom: 110px;
+  }
+}
+#join .description {
+    position: absolute;
+    padding:35px;
+}
+#join .item-name {
+    font-size: 1.4em;
+    line-height: 1.3em;
+    text-transform: uppercase;
+}
+#join .item-summary {
+    height: 155px;
+    font-size: 1.15em;
+    line-height: 1.3em;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+@media (min-width:961px){
+  #join .row{
+    margin-left:40px;
+    margin-right:40px;
+  }
+}
+.heart{
+  color: #FF0000;
+}
+.blue{
+  color: #000066;
+  font-weight: bold;
+}
+/**End Join**/
+/**Start Footer**/
+#footer .container-fluid{
+  text-align: center;
+  font-size: 15px;
+  background-color:#f8f8f8; 
+  border-top: 1px solid ;
+  border-color: #e7e7e7;
+  padding: 15px;
+}
+/**End Footer**/
